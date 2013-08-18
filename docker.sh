@@ -21,3 +21,6 @@ ufw reload
 
 ufw allow 4243/tcp
 
+docker pull ubuntu
+
+docker run ubuntu /bin/echo 'Docker Successfully Installed'
